@@ -1,0 +1,262 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HEADER START */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+header nav ul li {
+  display: inline;
+  padding: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+header h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+header .nav-line img{
+  width: 60px;
+  display: none; 
+}
+/* HEADER END */
+
+/* HERO SECTION START */
+#hero {
+  padding-top: 30px;
+  text-align: center;
+}
+#hero h1 {
+  line-height: 1;
+  font-size: 38px;
+  margin: auto;
+  width: 500px;
+}
+#hero div p {
+  padding: 20px 0 30px 0;
+}
+#hero img {
+  height: 600px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+/* HERO SECTION END */
+
+/* BLOG SECTION START */
+#blog {
+  border-top: 2px solid black;
+  margin: auto;
+  width: 460px;
+}
+#blog .first img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+#blog .first {
+  column-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+#blog .first .icon {
+  padding-left: 158px;
+}
+#blog .first .icon img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+}
+#blog .top-para p {
+  line-height: 1.5;
+  margin: 25px 0;
+}
+.top-para h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+}
+#blog2 .blog-img img {
+  height: 400px;
+  width: 550px;
+}
+#blog2 .blog-img {
+  text-align: center;
+}
+#blog2 .para p {
+  margin: auto;
+  width: 500px;
+  padding-top: 25px;
+  line-height: 1.5;
+}
+
+#blog2 .para ul {
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  line-height: 2;
+}
+
+.social-media {
+  margin: 20px 0;
+  text-align: center;
+}
+.social-media span {
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 1px 4px;
+  padding: 8px 30px;
+  font-size: 10px;
+  border-radius: 2px;
+}
+.social-media span img {
+  height: 25px;
+  width: 25px;
+  padding: 15px 8px 0 0;
+}
+.id {
+  margin: auto;
+  width: 500px;
+  padding-bottom: 50px;
+}
+.id p {
+  padding: 15px 0;
+  border-top: 1px dotted black;
+}
+#p {
+  margin: auto;
+  width: 500px;
+  padding: 20px 0;
+}
+
+.id p img {
+  float: left;
+  padding: 0 10px;
+  height: 40px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+article {
+  border-top: 2px solid black;
+  padding: 30px;
+}
+article h1 {
+  text-align: center;
+  padding: 15px;
+}
+article .images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 20px 15px;
+}
+article .images img {
+  height: 130px;
+  width: 220px;
+}
+article .images p {
+  text-align: center;
+  margin: auto;
+  width: 185px;
+  padding: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.sign-up {
+  border-top: 4px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 320px;
+  margin: auto;
+  padding: 13px;
+}
+.sign-up p {
+  font-size: 12px;
+  padding: 7px 0;
+}
+.sign-up form {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.sign-up form .button {
+  background-color: black;
+  color: white;
+}
+.sign-up form input {
+  padding: 3px;
+}
+/* BLOG SECTION END */
+
+/* FOOTER START */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer .head-line {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+  word-spacing: 10px;
+}
+
+.content h3 {
+  margin-top: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.content .footer-parah {
+  margin: auto;
+  padding: 20px;
+  width: 450px;
+}
+.content .footer-link a {
+  color: white;
+  padding: 10px;
+}
+.content .last-line {
+  padding: 40px 0 25px 0;
+}
+/* FOOTER END */
+
+@media only screen and (min-width: 320px) and (max-width: 435px) {
+  body {
+    width: fit-content;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header .nav-line img{
+  display: flex;
+  }
+
+  article .images {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  article .images img {
+    height: 170px;
+    width: 290px;
+  }
+}
